@@ -1,5 +1,6 @@
 /**
- * print_alphabet_10x - Prints the alphabet in lowercase 10 times, each followed by a new line.
+ * print_alphabet_10x - Prints the alphabet in lowercase 10 times, 
+ * each followed by a new line.
  */
 void print_alphabet_10x(void)
 {
@@ -10,9 +11,9 @@ void print_alphabet_10x(void)
     {
         for (c = 'a'; c <= 'z'; c++)
         {
-            putchar(c);
+            _putchar(c);
         }
-        putchar('\n');
+        _putchar('\n');
     }
 }
 
