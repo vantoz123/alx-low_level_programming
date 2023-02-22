@@ -1,17 +1,17 @@
 #include "main.h"
-/**main print _putchar
- * is witten by vantoz
- * return 0
- */
+
+/**
+  *main - prints _putchar
+  *Return: always succes.
+  */
 int main(void)
 {
-	char c [8]='_putchar';
-	
-	for(int i=0;i<8;i++)
-		_putchar(c[i]);
-	_putchar('\n');
+	char word[8] = "_putchar";
+	int i;
 
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
+	_putchar('\n');
 	return (0);
 }
-
 
