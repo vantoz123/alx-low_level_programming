@@ -4,18 +4,18 @@
 #include <fcntl.h>
 #include "main.h"
 
-#define READ_ERROR "Error: Can't read from file %s\n"
-#define WRITE_ERROR "Error: Can't write to %s\n"
+#define READ_ERR "Error: Can't read from file %s\n"
+#define WRITE_ERR "Error: Can't write to %s\n"
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code for alx-low_level_programming.
  * @argc: number of arguments
  * @argv: arguments
  * Return: Always 0.
  */
 int main(int argc, char **argv)
 {
-	int to, from, on_close, wr, rd;
+	int from, to, on_close, wr, rd;
 	char buffer[1024];
 
 	if (argc != 3)
