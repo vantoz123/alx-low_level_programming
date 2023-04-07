@@ -1,7 +1,7 @@
-#include "main.h"
-#include <stdlib.h>
-#include <fcntl.h>
 #include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include "main.h"
 
 /**
  * append_text_to_file - it appends text to file
