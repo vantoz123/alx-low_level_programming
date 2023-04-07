@@ -1,8 +1,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "main.h"
 #include <fcntl.h>
+#include "main.h"
 
 #define READ_ERROR "Error: Can't read from file %s\n"
 #define WRITE_ERROR "Error: Can't write to %s\n"
